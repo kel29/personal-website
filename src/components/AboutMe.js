@@ -1,10 +1,19 @@
 import React from 'react'
+import { Grid, Image } from 'semantic-ui-react'
+import headshot from '../images/KL.jpg'
 import '../App.css'
 
 const AboutMe = () => {
   return (
     <div className='margined'>
-      <h1 className='head-text'>Hello, I'm Krista Loven.</h1>
+      <Grid verticalAlign='middle'>
+        <Grid.Column width={3}>
+          <Image src={headshot} alt='profile photo' className='ui small circular image' />
+        </Grid.Column>
+        <Grid.Column width={13}>
+          <h1 className='head-text'>Hello, I'm Krista Loven.</h1>
+        </Grid.Column>
+      </Grid>
       <p className='about-me'>
         I'm an impact-driven, dedicated and socially conscious professional,
         passionate about driving positive change to my organization and the

@@ -1,6 +1,7 @@
 .about-me {
   text-align: left;
   font-size: 1.6em;
+  margin-top: 1em;
 }
 
 .contact {
@@ -17,6 +18,7 @@
 .head-text {
   font-family: 'Permanent Marker';
   font-size: 4em;
+  line-height: .8em;
 }
 
 .section-headers {
