@@ -17,13 +17,15 @@
 
 .head-text {
   font-family: 'Permanent Marker';
+  text-align: center;
   font-size: 4em;
-  line-height: .9em;
+  line-height: 1.1em;
 }
 
 .section-headers {
   font-family: 'Permanent Marker';
   font-size: 3em;
+  margin-bottom: 25px;
 }
 
 .project-title {

@@ -7,7 +7,7 @@ import resume from '../images/KristaLovenResume.pdf'
 import { Image } from 'semantic-ui-react'
 
 const Contact = () => {
-  const size = { width: 60, height: 60 }
+  const size = { width: 57, height: 57 }
   return (
     <div className='contact'>
       <a href='https://www.linkedin.com/in/krista-loven/' target='blank'>
