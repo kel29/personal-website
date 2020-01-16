@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <>
       <h2 className='section-headers'>Projects</h2>
-      <Card.Group>
+      <Card.Group stackable doubling itemsPerRow={3}>
         {parseProjects()}
       </Card.Group>
     </>

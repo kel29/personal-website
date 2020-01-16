@@ -6,7 +6,7 @@ import '../App.css'
 const AboutMe = () => {
   return (
     <div className='margined'>
-      <Grid verticalAlign='middle'>
+      <Grid stackable verticalAlign='middle'>
         <Grid.Column width={3}>
           <Image src={headshot} alt='profile photo' className='ui small circular image' />
         </Grid.Column>
