@@ -1,29 +1,31 @@
 import React from 'react'
+import { Card, Image } from 'semantic-ui-react'
 
 const ProjectCard = (props) => {
   const { name, languages, description, frontend_repo, backend_repo, url } = props.project
 
   return (
-    <div className='ui card fluid'>
-      <div className='content'>
-        <div className='header'>
+    <Card>
+      {/* <Image src={placeholder} alt='project visual' /> */}
+      <Card.Content>
+        <Card.Header>
           {name}
-        </div>
-      </div>
-      <div className='content'>
-        <div className='meta'>
+        </Card.Header>
+      </Card.Content>
+      <Card.Content>
+        <Card.Meta>
           {languages}
-        </div>
+        </Card.Meta>
         <div>
           {url ? <span><a href={url}>Demo </a> | </span> : null}
           {frontend_repo ? <span><a href={frontend_repo}>Frontend </a> | </span> : null}
           {backend_repo ? <a href={backend_repo}>Backend</a> : null}
         </div>
-        <div className='description'>
+        <Card.Description>
           {description}
-        </div>
-      </div>
-    </div>
+        </Card.Description>
+      </Card.Content>
+    </Card>
   )
 }
 

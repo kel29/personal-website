@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { API_ROOT } from '../services/api'
 import ProjectCard from './ProjectCard'
+import { Card, CardGroup } from 'semantic-ui-react'
 import '../App.css'
 
 const Projects = () => {
@@ -32,9 +33,9 @@ const Projects = () => {
   return (
     <>
       <h2 className='section-headers'>Projects</h2>
-      <div className='ui cards'>
+      <Card.Group>
         {parseProjects()}
-      </div>
+      </Card.Group>
     </>
   )
 }
