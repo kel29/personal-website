@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { API_ROOT } from '../services/api'
 import ProjectCard from './ProjectCard'
-import { Card, CardGroup } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 import '../App.css'
 
 const Projects = () => {
@@ -34,7 +34,7 @@ const Projects = () => {
     <>
       <h2 className='section-headers'>Projects</h2>
       <Card.Group stackable doubling itemsPerRow={3}>
-        {parseProjects()}
+        {projects[0].id ? parseProjects() : null}
       </Card.Group>
     </>
   )
