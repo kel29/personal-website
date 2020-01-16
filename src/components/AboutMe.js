@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div className='margined'>
       <Grid stackable verticalAlign='middle'>
         <Grid.Column width={3}>
-          <Image src={headshot} alt='profile photo' className='ui small circular image' />
+          <Image src={headshot} alt='profile photo' className='ui medium circular centered image' />
         </Grid.Column>
         <Grid.Column width={13}>
           <h1 className='head-text'>Hello, I'm Krista Loven.</h1>
