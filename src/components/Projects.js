@@ -32,7 +32,7 @@ const Projects = () => {
 
   return (
     <>
-      <h2 className='section-headers'>Projects</h2>
+      {projects[0].id ? <h2 className='section-headers'>Projects</h2> : null}
       <Card.Group stackable doubling itemsPerRow={3}>
         {projects[0].id ? parseProjects() : null}
       </Card.Group>
