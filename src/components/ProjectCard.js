@@ -1,12 +1,15 @@
 import React from 'react'
-import { Card, Image } from 'semantic-ui-react'
+import { Card } from 'semantic-ui-react'
 
 const ProjectCard = (props) => {
-  const { name, languages, description, frontend_repo, backend_repo, url } = props.project
+  const { name, technologies, description, frontend_repo, backend_repo, demo, hosted } = props.project
 
   return (
     <Card>
-      {/* <Image src={placeholder} alt='project visual' /> */}
+      <iframe
+        width='100%'
+        src={demo}
+      />
       <Card.Content>
         <Card.Header>
           {name}
@@ -14,10 +17,10 @@ const ProjectCard = (props) => {
       </Card.Content>
       <Card.Content>
         <Card.Meta>
-          {languages}
+          {technologies}
         </Card.Meta>
         <div>
-          {url ? <span><a href={url}>Demo </a> | </span> : null}
+          {hosted ? <span><a href={hosted}>Hosted </a> | </span> : null}
           {frontend_repo ? <span><a href={frontend_repo}>Frontend </a> | </span> : null}
           {backend_repo ? <a href={backend_repo}>Backend</a> : null}
         </div>
