@@ -16,7 +16,7 @@ export const projects = [
     description: 'Topic based group chat application built with sockets',
     frontend_repo: 'https://github.com/kel29/chat-frontend',
     backend_repo: 'https://github.com/kel29/chat-server',
-    demo: '',
+    demo: 'https://youtube.com/embed/EixPkb3cEQE',
     hosted: ''
   },
   {

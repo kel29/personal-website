@@ -7,7 +7,7 @@ const BlogCard = (props) => {
   return (
     <Card>
       <a href={link} target='blank'>
-        <Image src={thumbnail} alt={title} />
+        <Image src={thumbnail} alt={title} width='100%' />
       </a>
       <Card.Content>
         <Card.Header>
