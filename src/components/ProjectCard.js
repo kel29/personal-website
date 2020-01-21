@@ -9,6 +9,8 @@ const ProjectCard = (props) => {
       <iframe
         width='100%'
         src={demo}
+        title={name}
+        style={{ border: 0 }}
       />
       <Card.Content>
         <Card.Header>
