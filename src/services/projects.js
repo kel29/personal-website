@@ -6,7 +6,7 @@ export const projects = [
     description: 'Entertaining party game application which applies drawing to the childhood classic',
     frontend_repo: 'https://github.com/kel29/frontend-telephone',
     backend_repo: 'https://github.com/kel29/Telephone-server',
-    demo: '',
+    demo: 'https://youtube.com/embed/JCmPPinrRbE',
     hosted: ''
   },
   {
