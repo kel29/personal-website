@@ -8,9 +8,10 @@ const ProjectCard = (props) => {
     <Card>
       <iframe
         width='100%'
+        height='100%'
         src={demo}
         title={name}
-        style={{ border: 0 }}
+        className='video'
       />
       <Card.Content>
         <Card.Header>

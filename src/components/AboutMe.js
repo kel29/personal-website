@@ -15,11 +15,12 @@ const AboutMe = () => {
         </Grid.Column>
       </Grid>
       <p className='about-me'>
-        I'm an impact-driven, dedicated and socially conscious professional,
-        passionate about driving positive change to my organization and the
-        world. As a fullstack software engineer, I am JavaScript and Ruby focused,
-        with an aptitude for learning new technologies. Have a problem you're
-        working on? <a href='https://www.linkedin.com/in/krista-loven/' target='blank'>Connect with me</a>, I'd love to help you solve it.
+        I'm an impact-driven professional, passionate about driving positive 
+        change to my organization and the world. As a fullstack software 
+        engineer, I am JavaScript and Ruby focused, with an aptitude for 
+        learning new technologies. Have a problem you're working 
+        on? <a href='https://www.linkedin.com/in/krista-loven/' target='blank'>Connect with me</a>
+        , I'd love to help you solve it.
       </p>
       <p className='about-me'>
         Previously, I helped veterans figure out what to do in their post-military

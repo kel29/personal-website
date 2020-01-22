@@ -1,13 +1,22 @@
 .about-me {
-  text-align: left;
+  text-align: justify;
   font-size: 1.6em;
   margin-top: 1em;
 }
 
 .contact {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-icon {
+  height: 57px;
+  width: 57px;
+}
+
+.contact-icon:hover {
+  height: 60px;
+  width: 60px;
 }
 
 .margined {
@@ -26,4 +35,9 @@
   font-family: 'Permanent Marker';
   font-size: 3em;
   margin-bottom: 25px;
+}
+
+.video {
+  min-height: 200px;
+  border: 0;
 }
