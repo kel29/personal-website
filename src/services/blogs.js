@@ -1,5 +1,12 @@
 export const blogs = [
   {
+    id: 4,
+    title: 'Re Re Re Recursion',
+    link: 'https://medium.com/@krista.loven.87/re-re-re-recursion-79457f6f0f4a',
+    description: 'If you are trying to wrap your mind around recursion, perhaps this painting of a swan might help.',
+    thumbnail: 'https://miro.medium.com/fit/c/1120/336/0*oN_frorjIYVwA51m'
+  },
+  {
     id: 1,
     title: 'DIY Queue: How to Write Your Own Queue Class',
     link: 'https://medium.com/@krista.loven.87/diy-queue-how-to-write-your-own-queue-class-73b94acbec98',
@@ -21,3 +28,4 @@ export const blogs = [
     thumbnail: 'https://miro.medium.com/fit/c/474/142/0*m3ADz1HwQ8azf1fM'
   }
 ]
+
