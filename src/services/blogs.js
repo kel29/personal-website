@@ -1,5 +1,12 @@
 export const blogs = [
   {
+    id: 5,
+    title: 'Coding Chindogu',
+    link: 'https://medium.com/@krista.loven.87/coding-chindogu-9f7bcf6f09ce',
+    description: 'Imagine you have just been served a delicious bowl of shyou soba ramen, as you enjoy your highly coveted and hard to obtain seat at Tsuta.',
+    thumbnail: 'https://miro.medium.com/fit/c/1120/336/0*dSKV63gq0HiBKd1X'
+  },
+  {
     id: 4,
     title: 'Re Re Re Recursion',
     link: 'https://medium.com/@krista.loven.87/re-re-re-recursion-79457f6f0f4a',
@@ -15,7 +22,7 @@ export const blogs = [
   },
   {
     id: 3,
-    title: 'Vectors: How An Array Doesn’t Run Out of Space',
+    title: 'Vectors: How an Array Doesn’t Run Out of Space',
     link: 'https://medium.com/@krista.loven.87/vectors-how-an-array-doesnt-run-out-of-space-89692c5f98bb',
     description: `When you make an array in JavaScript, you don't have to specify how much space in memory you need. Why?`,
     thumbnail: 'https://miro.medium.com/fit/c/1120/336/1*BDdTKS0rwFofe7pL-sod7g.png'
