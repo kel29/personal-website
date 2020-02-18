@@ -1,5 +1,12 @@
 export const blogs = [
   {
+    id: 6,
+    title: 'Crazy Little Thing Called Redux',
+    link: 'https://medium.com/@krista.loven.87/crazy-little-thing-called-redux-6529fdd9565e',
+    description: '🎵This thing called Redux, at first I couldn’t handle it 🎵',
+    thumbnail: 'https://miro.medium.com/fit/c/560/168/0*9vEGtvGYf4tcKIIN'
+  },
+  {
     id: 5,
     title: 'Coding Chindogu',
     link: 'https://medium.com/@krista.loven.87/coding-chindogu-9f7bcf6f09ce',
