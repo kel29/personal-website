@@ -1,12 +1,19 @@
+.about {
+  padding-top: 50px;
+  background-color: aquamarine;
+}
+
 .about-me {
   text-align: justify;
   font-size: 1.6em;
-  margin-top: 1em;
+  margin-top: 2em;
+  color: #4f4f4f;
 }
 
 .contact {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #4f4f4f;
 }
 
 .contact-icon {
@@ -19,9 +26,9 @@
   width: 60px;
 }
 
-.margined {
-  margin-top: 30px;
-  margin-bottom: 10px;
+.content {
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 .head-text {
@@ -31,10 +38,15 @@
   line-height: 1.1em;
 }
 
+.projects {
+  background-color:  white;
+}
+
 .section-headers {
   font-family: 'Permanent Marker';
+  text-align: center;
   font-size: 3em;
-  margin-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 .video {

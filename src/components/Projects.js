@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import { Card } from 'semantic-ui-react'
+import { Card, Container } from 'semantic-ui-react'
 import { projects } from '../services/projects'
 import '../App.css'
 
@@ -12,12 +12,14 @@ const Projects = () => {
   }
 
   return (
-    <>
-      {projects[0].id ? <h2 className='section-headers'>Projects</h2> : null}
-      <Card.Group stackable doubling itemsPerRow={3}>
-        {projects[0].id ? parseProjects() : null}
-      </Card.Group>
-    </>
+    <div className="content projects">
+      <Container>
+        {projects[0].id ? <h2 className='section-headers'>Projects</h2> : null}
+        <Card.Group stackable doubling itemsPerRow={3}>
+          {projects[0].id ? parseProjects() : null}
+        </Card.Group>
+      </Container>
+    </div>
   )
 }
 

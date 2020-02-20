@@ -1,7 +1,7 @@
 import React from 'react'
 import { blogs } from '../services/blogs'
 import BlogCard from './BlogCard'
-import { Card } from 'semantic-ui-react'
+import { Card, Container } from 'semantic-ui-react'
 import '../App.css'
 
 const Blogs = () => {
@@ -12,12 +12,14 @@ const Blogs = () => {
   }
 
   return (
-    <>
-      {blogs[0].id ? <h2 className='section-headers'>Blog Posts</h2> : null}
-      <Card.Group stackable doubling itemsPerRow={3}>
-        {blogs[0].id ? parseBlogs() : null}
-      </Card.Group>
-    </>
+    <div className="content">
+      <Container>
+        {blogs[0].id ? <h2 className='section-headers'>Blog Posts</h2> : null}
+        <Card.Group stackable doubling itemsPerRow={3}>
+          {blogs[0].id ? parseBlogs() : null}
+        </Card.Group>
+      </Container>
+    </div>
   )
 }
 
