@@ -6,17 +6,15 @@ import '../App.css'
 
 const Blogs = () => {
   const parseBlogs = () => {
-    return blogs.map(blog => {
-      return <BlogCard key={blog.id} blog={blog} />
-    })
+    return blogs.map(blog => <BlogCard key={blog.id} blog={blog} />)
   }
 
   return (
-    <div className="content">
+    <div className="content blogs">
       <Container>
-        {blogs[0].id ? <h2 className='section-headers'>Blog Posts</h2> : null}
+        <h2 className='section-headers'><a href='https://medium.com/@krista.loven.87' target='blank'>Blog Posts</a></h2>
         <Card.Group stackable doubling itemsPerRow={3}>
-          {blogs[0].id ? parseBlogs() : null}
+          {parseBlogs()}
         </Card.Group>
       </Container>
     </div>

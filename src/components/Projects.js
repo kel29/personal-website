@@ -6,17 +6,15 @@ import '../App.css'
 
 const Projects = () => {
   const parseProjects = () => {
-    return projects.map(project => {
-      return <ProjectCard key={project.id} project={project} />
-    })
+    return projects.map(project => <ProjectCard key={project.id} project={project} />)
   }
 
   return (
-    <div className="content projects">
+    <div className="content">
       <Container>
-        {projects[0].id ? <h2 className='section-headers'>Projects</h2> : null}
+        <h2 className='section-headers'>Projects</h2>
         <Card.Group stackable doubling itemsPerRow={3}>
-          {projects[0].id ? parseProjects() : null}
+          {parseProjects()}
         </Card.Group>
       </Container>
     </div>
