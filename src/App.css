@@ -6,11 +6,11 @@
 .about-body {
   background-color: #404040;
   color: #f7f7f7;
-  background-image: url("./images/grilled-noise.png");
 }
 
 .about-header {
-  background-color: aquamarine;
+  background-color: #6fe8bf;
+  background-image: url("./images/grilled-noise.png");
 }
 
 .about-me {
@@ -20,7 +20,7 @@
 }
 
 .about-me a {
-  color: aquamarine;
+  color: #6fe8bf;
   font-weight: 500;
 }
 
