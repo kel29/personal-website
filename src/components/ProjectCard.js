@@ -15,20 +15,24 @@ const ProjectCard = (props) => {
       />
       <Card.Content>
         <Card.Header>
-          {name}
+          <div className='card-header'>
+            {name}
+          </div>
         </Card.Header>
       </Card.Content>
       <Card.Content>
         <Card.Meta>
-          {technologies}
+          <span className="card-meta">
+            {technologies}
+            {hosted && <span> | <a href={hosted}>Hosted</a></span>}
+            {frontend_repo && <span> | <a href={frontend_repo}>Frontend</a></span>}
+            {backend_repo && <span> | <a href={backend_repo}>Backend</a></span>}
+          </span>
         </Card.Meta>
-        <div>
-          {hosted ? <span><a href={hosted}>Hosted </a> | </span> : null}
-          {frontend_repo ? <span><a href={frontend_repo}>Frontend </a> | </span> : null}
-          {backend_repo ? <a href={backend_repo}>Backend</a> : null}
-        </div>
         <Card.Description>
-          {description}
+          <div className="card-description">
+            {description}
+          </div>
         </Card.Description>
       </Card.Content>
     </Card>

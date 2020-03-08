@@ -12,7 +12,7 @@ const Blogs = () => {
   return (
     <div className="content blogs">
       <Container>
-        <h2 className='section-headers'><a href='https://medium.com/@krista.loven.87' target='blank'>Blog Posts</a></h2>
+        <h2 className='section-headers'><a href='https://medium.com/@krista.loven.87' target='blank'>BLOG POSTS</a></h2>
         <Card.Group stackable doubling itemsPerRow={3}>
           {parseBlogs()}
         </Card.Group>

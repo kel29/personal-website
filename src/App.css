@@ -14,6 +14,7 @@
 }
 
 .about-me {
+  font-family: 'Lato', sans-serif;
   text-align: justify;
   font-size: 1.4em;
   margin-top: 2em;
@@ -26,6 +27,25 @@
 
 .about-me a:hover {
   color: #b5ffe6;
+}
+
+.card-description {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+}
+
+.card-header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+
+.card-meta {
+  padding-top: 15px;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.4em;
+  margin-right: 0em;
 }
 
 .contact {
@@ -67,9 +87,10 @@
 }
 
 .section-headers {
-  font-family: 'Permanent Marker';
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
   padding-bottom: 30px;
 }
 

@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div className="content">
       <Container>
-        <h2 className='section-headers'>Projects</h2>
+        <h2 className='section-headers'>PROJECTS</h2>
         <Card.Group stackable doubling itemsPerRow={3}>
           {parseProjects()}
         </Card.Group>

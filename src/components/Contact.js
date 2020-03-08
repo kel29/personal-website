@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <Container>
-      <h2 className='section-headers inverse'>Get in Contact</h2>
+      <h2 className='section-headers inverse'>GET IN CONTACT</h2>
         <Grid centered columns={4}>
           <Grid.Column computer={2} tablet={2} mobile={4}>
             <a href='https://www.linkedin.com/in/krista-loven/' target='blank'>

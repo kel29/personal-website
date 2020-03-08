@@ -11,15 +11,19 @@ const BlogCard = (props) => {
       </a>
       <Card.Content>
         <Card.Header>
-          {title}
+          <div className='card-header'>
+            {title}
+          </div>
         </Card.Header>
       </Card.Content>
       <Card.Content>
         <Card.Description>
-          {description}
+          <div className="card-description">
+            {description}
+          </div>
         </Card.Description>
-        <div>
-          <a href={link}>Continue Reading</a>
+        <div className="card-meta">
+          <a href={link}>Continue Reading...</a>
         </div>
       </Card.Content>
     </Card>
